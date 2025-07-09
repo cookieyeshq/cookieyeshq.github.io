@@ -17,7 +17,7 @@ window.CYAppConsent = {
     const date = new Date();
     const toSetTime = date.setTime(date.getTime() + 365 * 24 * 60 * 60 * 1000);
     const expiry = new Date(toSetTime).toUTCString();
-    document.cookie = `cookieyes-consent=${value}; expires=${expiry}; path=/;domain=cookieyeshq.github.io; SameSite=Strict; secure`;
+    document.cookie = `cookieyes-consent=${value}; expires=${expiry}; path=/;domain=.cookieyeshq.github.io; SameSite=Strict; secure`;
   }
 
   // Read CYAppConsent and set cookie
