@@ -1,17 +1,3 @@
-window.CYAppConsent = {
-  activeLaw: "gdpr",
-  categories: {
-    necessary: true,
-    functional: true,
-    analytics: true,
-    performance: true,
-    advertisement: true,
-  },
-  isUserActionCompleted: true,
-  consentID: "MXZvREd0a3Rjb1hIV1RGREtmTlpwVGdzTG9NQXM3V3I",
-  languageCode: "en",
-};
-
 (function () {
   function cy_override_cookie(value) {
     const date = new Date();
